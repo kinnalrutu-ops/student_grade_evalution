@@ -1,6 +1,14 @@
 print("student_grade_evaluation")
 print("enter your marks:")
-marks = int(input())
+
+maths = int(input())
+physics = int(input())
+chemistry = int(input())
+english = int(input())
+CS= int(input())
+
+marks = (maths + physics + chemistry + english + CS) / 5
+
 if marks >= 85:
     print("A")
 elif marks >= 75:
@@ -11,5 +19,7 @@ elif marks >= 55:
     print("D")
 else:
     print("FAIL")
-    
+
+
+
 
