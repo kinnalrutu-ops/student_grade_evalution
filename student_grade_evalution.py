@@ -9,6 +9,7 @@ CS= int(input())
 
 marks = (maths + physics + chemistry + english + CS) / 5
 print("average marks:",marks)
+print ("ok")
 
 if marks >= 85:
     print("A")
