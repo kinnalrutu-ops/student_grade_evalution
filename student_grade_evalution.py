@@ -21,6 +21,7 @@ elif marks >= 55:
 else:
     print("FAIL")
 
+print("---THANK--YOU---")
 
 
 
